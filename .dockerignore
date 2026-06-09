@@ -1,0 +1,56 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Node.js
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Next.js
+.next
+out
+build
+dist
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*.vim
+.DS_Store
+Thumbs.db
+
+# Testing
+.jest
+coverage
+.nyc_output
+
+# CI/CD
+.github
+.gitlab-ci.yml
+.travis.yml
+
+# Documentation
+README.md
+docs
+AGENTS.md
+CLAUDE.md
+
+# Other
+.dockerignore
+docker-compose.yml
+eslint.config.mjs
+postcss.config.mjs
+tsconfig.json
